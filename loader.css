@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #8EA1AD;
+}
+
+.thinking {
+  position: absolute;
+  top: 20%;
+  left: 43%;
+  color: #1D1D1D;
+}
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  width: 100px;
+  height: 100px;
+  animation: animate 1s linear infinite;
+
+}
+
+.loader .photo {
+  display: flex;
+  position: absolute;
+
+}
+.loader .photo img{
+  height: 10em;
+  width: 10em;
+  animation: rotate 2s linear infinite;
+}
+
+
+@keyframes animate {
+  0%{
+      width: 100px;
+      height: 100px;
+
+  }10%{
+      width: 100px;
+      height: 100px;
+
+
+  }50%{
+      width: 150px;
+      height: 150px;
+
+
+  }90%{
+      width: 100px;
+      height: 100px;
+
+
+  }100%{
+      width: 100px;
+      height: 100px;
+
+      
+  }
+}
+
+@keyframes rotate {
+  0%{
+      transform: rotate(0deg);
+
+  }10%{
+      transform: rotate(40deg);
+  
+  }25%{
+      transform: rotate(90deg);
+
+  }50%{
+      transform: rotate(180deg);
+
+
+  }75%{
+      transform: rotate(270deg);
+
+
+  }100%{
+      transform: rotate(360deg);
+
+      
+  }
+}

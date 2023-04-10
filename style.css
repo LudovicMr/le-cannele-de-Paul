@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Dancing Script;
+    
+}
+
+body {
+    background-color: #8EA1AD;
+}
+
+nav {
+    height: 8em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #171717;
+    
+}
+
+.nav {
+    height: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-left: 2px solid #171717;
+    border-right: 2px solid #171717;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #171717;
+    font-size: x-large;
+}
+.nav a {
+    text-decoration: none;
+    color: #171717;
+}
+.nav a:hover {
+    color: #8EA1AD;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 20%;
+    border: 2px solid #171717;
+    margin-top: 40%;
+    
+}
+
+.logo:hover {
+    border: 2px solid #8EA1AD;
+}
+
+.lamaison {
+    width: 50%;
+    margin: 3%;
+    padding: 3%;
+    background-color: #ffffff;
+    border-radius: 10%;
+    border: 2px solid #171717;
+    float: right;
+}
+
+.chefpaul {
+    width: 50%;
+    margin: 3%;
+    padding: 3%;
+    background-color: #ffffff;
+    border-radius: 10%;
+    border: 2px solid #171717;
+    float: left;
+}
