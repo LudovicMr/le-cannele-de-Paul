@@ -1,0 +1,59 @@
+
+.container #morphing {
+  padding-top: 10vh;
+  position: absolute;
+  text-align: center;
+}
+
+#morphing {
+
+  color: #ffffff;
+  font-size:xx-large;
+  -webkit-text-stroke: 0,5px #171717;
+  text-shadow: -2px -2px #171717;
+
+}
+
+#morphing h1 {
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  transform: (-50%, -50%);
+  animation: h1 16s infinite ease-in-out;
+
+}
+
+#morphing h1:nth-child(1) {
+  animation-delay: -16s;
+}
+#morphing h1:nth-child(2) {
+  animation-delay: -14s;
+}
+#morphing h1:nth-child(3) {
+  animation-delay: -12s;
+}
+#morphing h1:nth-child(4) {
+  animation-delay: -10s;
+}
+#morphing h1:nth-child(5) {
+  animation-delay: -8s;
+}
+#morphing h1:nth-child(6) {
+  animation-delay: -6s;
+}
+#morphing h1:nth-child(7) {
+  animation-delay: -4s;
+}
+@keyframes h1 {
+  0%, 5%, 100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  20%, 80% {
+    filter: blur(1em);
+    opacity: 0;
+
+  }
+}
+
+
