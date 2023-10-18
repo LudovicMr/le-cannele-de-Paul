@@ -1,14 +1,20 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(photos/img3.jpg);
+  background: url(photos/dossier/tof/recoupe6.png);
+  background-size: cover;
 }
 
 .thinking {
   position: absolute;
   top: 20%;
-  left: 43%;
-  color: #8EA1AD;
+  left: 37%;
+  color: #ffffff;
+  font-size: xx-large;
+  -webkit-text-stroke: 0,5px #171717;
+  backdrop-filter: blur(2px);
+  text-shadow: -2px -2px #171717;
+  font-family: Dancing Script;
 }
 .loader {
   position: absolute;

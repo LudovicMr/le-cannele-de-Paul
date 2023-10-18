@@ -91,8 +91,6 @@ nav {
 
 
 
-
-
 .container {
     display: flex;
     position: relative;
@@ -113,6 +111,7 @@ nav {
 
 
 .container #textma{
+    position: absolute;
     color: #ffffff;
     font-size: large;
     -webkit-text-stroke: 0,5px #171717;
@@ -261,6 +260,7 @@ nav {
     display: block;
     width: 100%;
     object-fit: cover;
+    
 }
 .img-carousel div p {
     position: absolute;
@@ -303,6 +303,7 @@ nav {
 .img-carousel::-webkit-scrollbar {
     width: 10px;
     height: 10px;
+    border-bottom: 2px solid #8EA1AD;
 }
 .img-carousel::-webkit-scrollbar-thumb {
     background: #8EA1AD;
@@ -316,6 +317,88 @@ nav {
     visibility: visible;
 }
 
+.mobile {
+    position: relative;
+    display: none;
+    padding-top: 20%;
+    padding: 5%;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    color: #ffffff;
+    font-size: large;
+    -webkit-text-stroke: 0,5px #171717;
+    backdrop-filter: blur(2px);
+    text-shadow: -2px -2px #171717; 
+}
+
+.mobile #btn {
+    margin-top: 10vh;
+    height: 50px;
+    width: 250px;
+    top: 25%;
+    left: 45%;
+    border-radius: 20px;
+
+}
+.mobile #btn:hover {
+    border-color: #ffffff;
+}
+.mobile #btn a {
+    text-decoration: none;
+    color: #171717;
+    font-size: large;
+}
+.mobile #btn a:hover {
+    color: #8EA1AD;
+}
+.mobile .btn {
+    height: 100px;
+    width: 100px;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-color: #ffffff;
+}
+.mobile .btn:hover {
+    border-color: #171717;
+}
+.mobile .btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.mobile .btn a:hover {
+    color: #8EA1AD;
+}
+
+#index {
+    background-image: url(./photos/index&/photo1.jpg);
+    font-size: x-large;
+}
+#sales {
+    background-image: url(./photos/sales/photo1.jpg);   
+}
+#sucres {
+    background-image: url(./photos/sucres/photo2.jpg);
+}
+#creations {
+    background-image: url(./photos/creations/photo3.jpg);
+}
+#contact {
+    background-image: url(./photos/contact/photo2.jpg);
+    font-size: x-large;
+}
+#maison {
+    background-image: url(./photos/maison/photo1.jpg);
+}
+#maison2 {
+    background-image: url(./photos/maison/photo2.jpg);
+
+}
+
+
 @media screen {
     .img-carousel-container {
         width: 100%;
@@ -323,4 +406,68 @@ nav {
     .img-carousel div  {
         width: 100%;
     }
+}
+@media screen and (max-width: 959px) {
+    #imgages-carousel {
+        display: none;
+    }
+}
+@media screen and (max-width: 959px) {
+    #imgages-carousel1 {
+        display: none;
+    }
+}
+@media screen and (max-width: 959px) {
+    .mobile {
+        display: block;
+    }
+}
+@media screen and (min-width: 959px)  {
+    #footermobile {
+        display: none;
+    }
+    
+}
+
+.lacarte {
+    animation: lacarte 15s ease infinite;
+    animation: action 0.8s ease infinite;
+    
+}
+
+@keyframes lacarte {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+@keyframes action {
+    0% {
+        padding-top: 10px;
+    }
+    50% {
+        padding-top: 15px;
+    }
+    100% {
+        padding-top: 10px;
+    }
+}
+
+
+
+footer {
+    height: 8px;
+}
+
+#footermobile {
+    height: 30px;
+    font-size: small;
+    background-color: #ffffff;
+    border-top: 1px solid #8EA1AD;
 }
