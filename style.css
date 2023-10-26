@@ -386,6 +386,9 @@ h5 {
   .nav0 .titre {
     width: 150px;
   }
+  #morphing h1 {
+    font-size: xx-large;
+  }
 }
 @media screen and (max-width: 400px) {
   .nav0 .titre {
