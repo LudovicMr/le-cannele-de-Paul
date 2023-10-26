@@ -1,130 +1,96 @@
 <!DOCTYPE html>
-<html >
-    <head>
-        <meta charset="utf_8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-    </head>
-    <body>
-        <nav class="nav0">
-            <a href="maison.html">La Maison</a>
-            <a href="contact.html">Nous Contacter</a>
-            <div class="titre"><a href="index.html"><h1>Le Cannelé de Paul M.</h1></a></div>
-            <a href="Https://instagram.com" class="fa fa-instagram" style="font-size:24px"></a>
-            <a href="Https://facebook.com" class="fa fa-facebook" style="font-size:24px"></a>
-        </nav>
-        <nav class="nav">
-          <a href="sales.html">Salé</a>
-          <a href="sucres.html" style="color: black;">Sucré</a>
-          <a href="creations.html">Créations</a>
-        </nav>
-<section>
-    <div class="mobile" id="sucres">
-      <h1>Le sucré</h1>
-            <br>
-            <h1>Caramélisé et bien croustillant à l'exterieur.</h1>
-            <h1>Moelleux à coeur à l'intérieur.</h1>
-            <h1>Goût équilibré entre vanille et rhum ambré.</h1>
-            <br>
-            <h2>Mini</h2>
-            <h2>1 sachet de 10 - 5&euro;</h2>                
-            <h2>1 boîte de 24 - 10&euro;</h2>
-            <h2>2 boîte de 24 - 18&euro;</h2>
-            <br>
-            <h2>Gros</h2>
-            <h2>1 boîte de 9 - 12&euro;</h2>             
-            <h2>2 boîte de 9 - 22&euro;</h2>
-            <button id="btn"><a href="./contact.html">Réservez / Commandez</a></button>
-            <br><br><br>
-            <button class="btn"><a href="https://www.instagram.com/le_cannele_de_paul_m/" class="fa fa-instagram" style="font-size:64px"></a></button>
-            <button class="btn"><a href="https://www.facebook.com/LeCanneleDePaul/" class="fa fa-facebook" style="font-size:64px"></a></button>
-            <h1>Rejoignez-nous !</h1>
-    </div>
-    <footer id="footermobile">
-      <h1>Le cannelé de Paul M. ©</h1>
-    </footer>
-</section>
-        <!-- section images carousel -->
-<section id="imgages-carousel">
-    <div class="img-carousel-container">
-      <div class="img-carousel">
-        <div class="container">
-          <div class="text" id="textma">
-                <h1>Caramélisé et bien croustillant à l'exterieur.</h1>
-                <h1>Moelleux à coeur à l'intérieur.</h1>
-                <h1>Goût équilibré entre vanille et rhum ambré.</h1>
-                <br>
-                <h2>1 sachet de 10 minis - 5&euro;</h2>                
-                <h2>1 boîte de 24 minis - 10&euro;</h2>
-                <h2>2 boîte de 24 minis - 18&euro;</h2>
-                <br>
-                <h2>1 boîte de 9 gros- 12&euro;</h2>             
-                <h2>2 boîte de 9 gros - 22&euro;</h2>
-                <button id="btn"><a href="./contact.html">Réservez / Commandez</a></button>
-          </div>
-          <img src="photos/sucres/photo1.jpg">
-          <p>lecannelédepaulM ©</p>
-        </div>
-        <div class="container">
-          <div class="text" id="textma">
-            <h1>Le sucré</h1>
-            <br>
-            <h1>Caramélisé et bien croustillant à l'exterieur.</h1>
-            <h1>Moelleux à coeur à l'intérieur.</h1>
-            <h1>Goût équilibré entre vanille et rhum ambré.</h1>
-            <br>
-            <h2>1 sachet de 10 minis - 5&euro;</h2>                
-            <h2>1 boîte de 24 minis - 10&euro;</h2>
-            <h2>2 boîte de 24 minis - 18&euro;</h2>
-            <br>
-            <h2>1 boîte de 9 gros- 12&euro;</h2>             
-            <h2>2 boîte de 9 gros - 22&euro;</h2>
-            <button id="btn"><a href="./contact.html">Réservez / Commandez</a></button>
-          </div>
-          <img src="photos/sucres/photo2.jpg">
-          <p>lecannelédepaulM ©</p>
+<html>
+  <head>
+    <meta charset="utf_8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="nav0">
+      <a id="maisonmobile" href="maison.html"
+        ><img src="./photos/index&/logo.png" style="width: 50px" alt=""
+      /></a>
+      <a id="maisonsite" href="maison.html">La Maison</a>
+      <a id="contactmobile" href="contact.html"
+        ><img src="./photos/index&/logocontact.png" style="width: 30px" alt=""
+      /></a>
+      <a id="contactsite" href="contact.html">Nous Contacter</a>
+      <div class="titre">
+        <a href="index0.html"><h1>Le Cannelé de Paul M.</h1></a>
+      </div>
+      <a
+        href="Https://instagram.com"
+        class="fa fa-instagram"
+        style="font-size: 24px"
+      ></a>
+      <a
+        href="Https://facebook.com"
+        class="fa fa-facebook"
+        style="font-size: 24px; padding-right: 10px"
+      ></a>
+    </nav>
+    <nav class="nav">
+      <a href="sales.html">Salé</a>
+      <a href="sucres.html" style="color: black; text-shadow: 0 0 5px #ffd700"
+        >Sucré</a
+      >
+      <a href="creations.html">Créations</a>
+    </nav>
+    <section>
+      <div id="sucres" class="pages">
+        <h5>Le Cannelé de Paul M.&copy;</h5>
+        <div class="mobile">
+          <h1>Caramélisé et bien croustillant à l'exterieur.</h1>
+          <h1>Moelleux à coeur.</h1>
+          <h1>Goût équilibré entre vanille et rhum ambré.</h1>
+          <h1 style="color: #ffd700">_</h1>
+          <br />
+          <h2>Mini</h2>
+          <h2>1 sachet de 10 - 5&euro;</h2>
+          <h2>1 boîte de 24 - 10&euro;</h2>
+          <h2>2 boîte de 24 - 18&euro;</h2>
+          <br />
+          <h2>Gros</h2>
+          <h2>1 boîte de 9 - 12&euro;</h2>
+          <h2>2 boîte de 9 - 22&euro;</h2>
+          <button id="btn">
+            <a href="./contact.html">Réservez / Commandez</a>
+          </button>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <section id="imgages-carousel1">
-    <div class="img-carousel-container">
-      <div class="img-carousel">
-        <div class="container1">
-          <div class="text">
-            <h1>Rejoignez-nous !</h1>
-          </div>
-          <button class="btn1"><a href="https://www.instagram.com/le_cannele_de_paul_m/" class="fa fa-instagram" style="font-size:64px"></a></button>
-          <button class="btn2"><a href="https://www.facebook.com/LeCanneleDePaul/" class="fa fa-facebook" style="font-size:64px"></a></button>
-          <img style="height: 1556px;" src="photos/sucres/photo3.jpg">
-          <p>lecannelédepaulM ©</p>
-        </div>
-        <div class="container1">
-          <div class="text">
-            <h1>Rejoignez-nous !</h1>
-          </div>
-          <button class="btn1"><a href="https://www.instagram.com/le_cannele_de_paul_m/" class="fa fa-instagram" style="font-size:64px"></a></button>
-          <button class="btn2"><a href="https://www.facebook.com/LeCanneleDePaul/" class="fa fa-facebook" style="font-size:64px"></a></button>
-          <img style="height: 1556px;" src="photos/sucres/photo4.jpg">
-          <p>lecannelédepaulM ©</p>
+      <div id="sucres2" class="pages">
+        <h5>Le Cannelé de Paul M.&copy;</h5>
+        <div class="mobile">
+          <button class="btn">
+            <a
+              href="https://www.instagram.com/le_cannele_de_paul_m/"
+              class="fa fa-instagram"
+              style="font-size: 64px"
+            ></a>
+          </button>
+          <button class="btn">
+            <a
+              href="https://www.facebook.com/LeCanneleDePaul/"
+              class="fa fa-facebook"
+              style="font-size: 64px"
+            ></a>
+          </button>
+          <h1>Rejoignez-nous !</h1>
         </div>
       </div>
-    </div>
-    <footer>
-      <h1>Le cannelé de Paul M. ©</h1>
-    </footer>
-    
-  </section>
-
-       
-        </footer>
-    </body>
-
+      <footer class="footer">
+        <h1>Le cannelé de Paul M.&reg;</h1>
+      </footer>
+    </section>
+  </body>
 </html>
