@@ -27,14 +27,16 @@ nav {
   text-decoration: none;
   color: #8ea1ad;
   -webkit-text-stroke: 0.5px #171717;
+  font-size: x-large;
 }
 .nav0 .titre a {
   color: #ffffff;
   -webkit-text-stroke: 0;
+  font-size: large;
 }
 .nav0 a:hover {
   color: #171717;
-  text-shadow: 0 0 5px #ffd700;
+  text-shadow: 0 0 5px #f8ac54;
 }
 .nav0 .titre a:hover {
   color: #ffffff;
@@ -47,7 +49,7 @@ nav {
   background: #171717;
   animation: move 0.8s ease infinite;
   border-radius: 50%;
-  border: 3px solid #ffd700;
+  border: 3px solid #f8ac54;
   text-align: center;
 }
 
@@ -81,7 +83,7 @@ nav {
 }
 .nav a:hover {
   color: #171717;
-  text-shadow: 0 0 5px #ffd700;
+  text-shadow: 0 0 5px #f8ac54;
 }
 
 #morphing {
@@ -187,8 +189,8 @@ nav {
   text-shadow: -2px -2px #171717;
   background-color: transparent;
   border-radius: 20px;
-  border: 1px solid #ffd700;
-  backdrop-filter: blur(20px);
+  border: 1px solid #f8ac54;
+  backdrop-filter: blur(10px);
 }
 
 .mobile #btn {
@@ -218,7 +220,7 @@ nav {
   border-radius: 20px;
   background-color: transparent;
   backdrop-filter: blur(20px);
-  border-color: #ffd700;
+  border-color: #f8ac54;
 }
 .mobile .btn:hover {
   border-color: #ffffff;
@@ -228,7 +230,7 @@ nav {
   color: #ffffff;
 }
 .mobile .btn a:hover {
-  color: #ffd700;
+  color: #f8ac54;
 }
 .index {
   height: 100vh;
@@ -311,34 +313,6 @@ h5 {
   opacity: 0.7;
 }
 
-.lacarte {
-  animation: lacarte 15s ease infinite;
-  animation: action 0.8s ease infinite;
-}
-
-@keyframes lacarte {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes action {
-  0% {
-    padding-top: 10px;
-  }
-  50% {
-    padding-top: 15px;
-  }
-  100% {
-    padding-top: 10px;
-  }
-}
-
 .footer {
   height: 30px;
   font-size: small;
@@ -373,11 +347,11 @@ h5 {
     display: none;
   }
   .nav0 #maisonmobile:hover {
-    box-shadow: 0 0 5px #ffd700;
+    box-shadow: 0 0 5px #f8ac54;
     border-radius: 50%;
   }
   .nav0 #contactmobile:hover {
-    box-shadow: 0 0 5px #ffd700;
+    box-shadow: 0 0 5px #f8ac54;
     border-radius: 50%;
     padding: 10px;
   }

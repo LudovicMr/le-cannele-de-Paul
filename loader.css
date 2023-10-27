@@ -8,7 +8,7 @@ body {
   position: absolute;
   top: 20%;
   left: 30%;
-  color: #ffd700;
+  color: #f8ac54;
   font-size: xx-large;
   -webkit-text-stroke: 0, 5px #171717;
   backdrop-filter: blur(2px);
@@ -32,7 +32,7 @@ body {
   height: 10em;
   width: 10em;
   border-radius: 50%;
-  box-shadow: 0 0 5px #ffd700;
+  box-shadow: 0 0 5px #f8ac54;
   animation: rotate 2s linear infinite;
   margin: 10px;
 }
