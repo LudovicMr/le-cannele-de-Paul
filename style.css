@@ -314,10 +314,21 @@ h5 {
 }
 
 .footer {
+  padding-left: 1%;
+  padding-right: 1%;
+  display: flex;
+  justify-content: space-between;
   height: 30px;
   font-size: small;
   background-color: #ffffff;
   border-top: 1px solid #8ea1ad;
+}
+.footer a {
+  text-decoration: none;
+  color: #171717;
+}
+.footer a:hover {
+  color: #8ea1ad;
 }
 
 @media screen and (min-width: 900px) {
