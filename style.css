@@ -124,6 +124,11 @@ nav {
 }
 #morphing h1:nth-child(7) {
   animation-delay: -4s;
+  color: #f8ac54;
+}
+#morphing h1:nth-child(8) {
+  animation-delay: -2.4s;
+  color: #f8ac54;
 }
 @keyframes acceuil {
   0%,
